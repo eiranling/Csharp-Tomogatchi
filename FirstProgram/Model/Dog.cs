@@ -18,12 +18,9 @@ namespace Tomogatchi.Model
         }
 
         /// <summary>
-        /// 
+        /// Returns a string representation of the Dog
         /// </summary>
         /// <returns></returns>
-        public override string ToString()
-        {
-            return string.Format("{0} is a dog", Name);
-        }
+        public override string ToString() => string.Format("{0} is a dog", Name);
     }
 }

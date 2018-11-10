@@ -44,8 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\CreatePetCommand.cs" />
+    <Compile Include="Enum\HungerLevels.cs" />
+    <Compile Include="Model\Cat.cs" />
     <Compile Include="Model\Dog.cs" />
+    <Compile Include="Model\Fish.cs" />
+    <Compile Include="Model\Horse.cs" />
     <Compile Include="Model\Pet.cs" />
+    <Compile Include="Model\Unicorn.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
